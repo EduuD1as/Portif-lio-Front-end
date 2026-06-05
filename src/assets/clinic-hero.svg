@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Clínica médica e odontológica">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="980" cy="160" r="180" fill="#06b6d4" opacity=".18"/>
+  <rect x="180" y="150" width="840" height="460" rx="46" fill="#fff" opacity=".9"/>
+  <rect x="270" y="260" width="250" height="240" rx="26" fill="#e0f2fe"/>
+  <rect x="665" y="225" width="260" height="300" rx="130" fill="#cffafe"/>
+  <path d="M395 320v120M335 380h120" stroke="#0891b2" stroke-width="34" stroke-linecap="round"/>
+  <path d="M760 300c50-48 110-16 110 48 0 86-58 142-78 142s-78-56-78-142c0-64 46-96 46-48z" fill="#fff" stroke="#0891b2" stroke-width="16" stroke-linejoin="round"/>
+  <rect x="300" y="535" width="600" height="34" rx="17" fill="#0891b2" opacity=".28"/>
+</svg>

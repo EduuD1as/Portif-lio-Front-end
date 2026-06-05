@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Linha de produção têxtil corporativa">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="fabric" x1="0" x2="1">
+      <stop offset="0" stop-color="#d1fae5"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="1000" cy="110" r="210" fill="#22c55e" opacity=".16"/>
+  <rect x="100" y="160" width="1000" height="430" rx="34" fill="#020617" opacity=".48"/>
+  <rect x="160" y="230" width="880" height="80" rx="18" fill="#e2e8f0"/>
+  <rect x="200" y="340" width="800" height="78" rx="16" fill="url(#fabric)"/>
+  <rect x="160" y="450" width="880" height="54" rx="14" fill="#334155"/>
+  <g fill="#94a3b8">
+    <circle cx="235" cy="532" r="32"/><circle cx="365" cy="532" r="32"/><circle cx="495" cy="532" r="32"/><circle cx="625" cy="532" r="32"/><circle cx="755" cy="532" r="32"/><circle cx="885" cy="532" r="32"/>
+  </g>
+  <path d="M250 262h700M250 380h700" stroke="#0f172a" stroke-width="8" stroke-linecap="round" opacity=".28"/>
+  <path d="M280 230v188M430 230v188M580 230v188M730 230v188M880 230v188" stroke="#0f172a" stroke-width="4" opacity=".18"/>
+</svg>

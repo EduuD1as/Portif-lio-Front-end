@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #07110f;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #07110f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #bef264;
+  color: #052e16;
+}
+
+.section-shell {
+  width: min(1160px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.header-link {
+  position: relative;
+}
+
+.header-link::after {
+  position: absolute;
+  left: 0;
+  bottom: -0.45rem;
+  width: 100%;
+  height: 2px;
+  content: "";
+  background: #a8a29e;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms ease;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+}

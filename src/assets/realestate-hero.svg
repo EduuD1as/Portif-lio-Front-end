@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Empreendimento imobiliário moderno">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <circle cx="960" cy="150" r="90" fill="#fef3c7"/>
+  <rect x="0" y="570" width="1200" height="190" fill="#111827"/>
+  <rect x="250" y="190" width="170" height="380" rx="16" fill="#1e293b"/>
+  <rect x="460" y="110" width="250" height="460" rx="18" fill="#0f172a"/>
+  <rect x="750" y="250" width="190" height="320" rx="16" fill="#1f2937"/>
+  <g fill="url(#glass)">
+    <rect x="285" y="230" width="42" height="54" rx="8"/><rect x="345" y="230" width="42" height="54" rx="8"/>
+    <rect x="500" y="160" width="56" height="70" rx="8"/><rect x="580" y="160" width="56" height="70" rx="8"/>
+    <rect x="500" y="260" width="56" height="70" rx="8"/><rect x="580" y="260" width="56" height="70" rx="8"/>
+    <rect x="790" y="295" width="46" height="58" rx="8"/><rect x="855" y="295" width="46" height="58" rx="8"/>
+  </g>
+  <path d="M160 610c150-70 300-70 450 0s300 70 450 0" fill="none" stroke="#34d399" stroke-width="18" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Studio de beleza delicado">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff1f2"/>
+      <stop offset="1" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffe4e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="230" cy="160" r="130" fill="#fff" opacity=".52"/>
+  <circle cx="1010" cy="600" r="190" fill="#be185d" opacity=".12"/>
+  <rect x="180" y="120" width="840" height="520" rx="54" fill="url(#card)" opacity=".86"/>
+  <path d="M360 390c85-120 205-120 290 0" fill="none" stroke="#831843" stroke-width="18" stroke-linecap="round"/>
+  <path d="M540 390c85-120 205-120 290 0" fill="none" stroke="#831843" stroke-width="18" stroke-linecap="round"/>
+  <g stroke="#be185d" stroke-width="8" stroke-linecap="round">
+    <path d="M420 338l-34-40M462 318l-20-52M505 308l-4-56M620 308l4-56M663 318l20-52M705 338l34-40"/>
+  </g>
+  <rect x="365" y="470" width="470" height="70" rx="35" fill="#831843" opacity=".92"/>
+  <circle cx="600" cy="505" r="14" fill="#fdf2f8"/>
+</svg>
