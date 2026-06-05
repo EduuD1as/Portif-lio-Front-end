@@ -7,9 +7,6 @@ export default function Contact() {
         <div className="grid gap-10 rounded-[1.75rem] border border-white/10 bg-white/[0.06] p-8 sm:p-12 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.24em] text-lime-200">Contato</p>
-            <h2 className="mt-5 max-w-3xl text-4xl font-black leading-tight sm:text-5xl">
-              Vamos transformar seu site em um canal real de vendas?
-            </h2>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-stone-300">
               Me chame no WhatsApp ou envie um e-mail. Respondo rápido para entender
               seu negócio, objetivo e o tipo de página ideal.

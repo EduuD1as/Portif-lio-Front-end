@@ -5,7 +5,7 @@ export const projects = [
     brand: 'TexPrime Uniformes',
     sector: 'Indústria & Confecção Têxtil',
     description:
-      'Landing page corporativa estruturada para indústrias de confecção de uniformes, focada em passar autoridade e capturar orçamentos de grandes empresas.',
+      'Landing page corporativa para indústrias de uniformes, focada em autoridade e captação de orçamentos B2B.',
     tags: ['React', 'Tailwind CSS', 'JavaScript'],
     accent: 'emerald',
     audience: 'Indústrias, redes de varejo, hospitais e empresas com grandes equipes.',
@@ -22,7 +22,7 @@ export const projects = [
     brand: 'Lume Beauty Studio',
     sector: 'Beleza & Bem-estar',
     description:
-      'Landing page visualmente atraente, instagramável e altamente otimizada para conversão, focada no agendamento rápido de serviços locais.',
+      'Landing page visualmente atraente e instagramável, otimizada para conversão de visitantes em agendamentos.',
     tags: ['React', 'Tailwind CSS', 'UI/UX'],
     accent: 'pink',
     audience: 'Clientes locais que procuram estética facial, cílios e autocuidado.',
@@ -39,7 +39,7 @@ export const projects = [
     brand: 'Vértice Urbanismo',
     sector: 'Projetos, Construções & Imóveis',
     description:
-      'Site institucional para construtoras e imobiliárias, com vitrine de projetos, lançamentos e captação de contatos de potenciais compradores.',
+      'Site institucional para construtoras e imobiliárias, com vitrine de projetos, lançamentos e captação de leads.',
     tags: ['React', 'Tailwind CSS', 'API Integration'],
     accent: 'indigo',
     audience: 'Compradores, investidores e famílias em busca de imóveis planejados.',
@@ -56,7 +56,7 @@ export const projects = [
     brand: 'Clínica Plena Saúde',
     sector: 'Saúde',
     description:
-      'Página limpa, elegante e intuitiva com foco em credibilidade médica, apresentação de especialidades e agendamentos de consultas.',
+      'Página limpa e elegante com foco em credibilidade médica, apresentação de especialidades e agendamentos.',
     tags: ['React', 'Tailwind CSS', 'JavaScript'],
     accent: 'cyan',
     audience: 'Pacientes que procuram atendimento médico e odontológico humanizado.',
@@ -66,73 +66,5 @@ export const projects = [
     metrics: ['Atendimento humanizado', 'Equipe multidisciplinar', 'Agendamento rápido'],
     services: ['Clínica geral', 'Odontologia', 'Check-ups', 'Exames preventivos'],
     cta: 'Agendar consulta',
-  },
-  {
-    slug: 'restaurante-gastronomia',
-    title: 'Restaurante & Pizzaria',
-    brand: 'Bella Trattoria',
-    sector: 'Alimentação & Gastronomia',
-    description:
-      'Site moderno e funcional para restaurante com cardápio digital, sistema de reservas online e integração com WhatsApp para pedidos.',
-    tags: ['React', 'Tailwind CSS', 'WhatsApp API'],
-    accent: 'orange',
-    audience: 'Famílias, casais e grupos que buscam uma experiência gastronômica memorável.',
-    headline: 'Sabor autêntico italiano em cada prato, cada momento.',
-    subheadline:
-      'Uma presença digital que conecta seu restaurante aos clientes através de cardápio digital e reservas fáceis.',
-    metrics: ['Cardápio digital', 'Reservas online', 'Delivery próprio'],
-    services: ['Almoço executivo', 'Jantar à la carte', 'Eventos', 'Delivery'],
-    cta: 'Fazer reserva',
-  },
-  {
-    slug: 'advocacia-consultorio',
-    title: 'Escritório de Advocacia',
-    brand: 'Dias & Associados',
-    sector: 'Serviços Jurídicos',
-    description:
-      'Site institucional sóbrio e profissional para escritório de advocacia, com apresentação de áreas de atuação e formulário de contato inicial.',
-    tags: ['React', 'Tailwind CSS', 'Formulário Seguro'],
-    accent: 'slate',
-    audience: 'Empresas e pessoas físicas que buscam assessoria jurídica especializada.',
-    headline: 'Excelência jurídica com compromisso e ética.',
-    subheadline:
-      'Uma presença digital que transmite confiança, autoridade e facilidade de contato para novos clientes.',
-    metrics: ['+15 anos de atuação', 'Diversas áreas do direito', 'Atendimento personalizado'],
-    services: ['Direito civil', 'Direito trabalhista', 'Direito empresarial', 'Consultoria'],
-    cta: 'Agendar consulta',
-  },
-  {
-    slug: 'academia-fitness',
-    title: 'Academia de CrossFit',
-    brand: 'Iron Forge CrossFit',
-    sector: 'Esporte & Fitness',
-    description:
-      'Landing page energética e motivadora para academia, com horários de aula, planos de treinamento e formulário de matrícula online.',
-    tags: ['React', 'Tailwind CSS', 'Sistema de Agendamento'],
-    accent: 'red',
-    audience: 'Pessoas que buscam transformação física, condicionamento e comunidade de treino.',
-    headline: 'Transforme seu corpo, supere seus limites.',
-    subheadline:
-      'Uma página dinâmica que mostra a energia da academia e facilita a matrícula de novos alunos.',
-    metrics: ['+200 alunos ativos', 'Aulas diárias', 'Comunidade forte'],
-    services: ['CrossFit', 'Treino funcional', 'Aulas em grupo', 'Personal trainer'],
-    cta: 'Começar agora',
-  },
-  {
-    slug: 'auto-center-mecanica',
-    title: 'Auto Center & Oficina',
-    brand: 'Mecânica Premium',
-    sector: 'Automotivo & Serviços',
-    description:
-      'Site prático para oficina mecânica com apresentação de serviços, orçamento online e integração com WhatsApp para agendamento rápido.',
-    tags: ['React', 'Tailwind CSS', 'WhatsApp Integration'],
-    accent: 'blue',
-    audience: 'Proprietários de veículos que buscam manutenção confiável e transparente.',
-    headline: 'Seu carro em boas mãos, sempre.',
-    subheadline:
-      'Uma presença digital que facilita o contato, apresenta serviços claramente e gera confiança.',
-    metrics: ['Garantia de serviços', 'Diagnóstico preciso', 'Peças originais'],
-    services: ['Manutenção preventiva', 'Reparo geral', 'Troca de óleo', 'Alinhamento'],
-    cta: 'Solicitar orçamento',
   },
 ]
