@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="max-w-3xl">
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-lime-200/20 bg-white/8 px-4 py-2 text-sm font-bold text-lime-100">
             <Gauge size={16} />
-            Front-end para negócios que precisam vender melhor
+            Solução para quem precisa de mais visibilidade!
           </div>
           <h1 className="text-4xl font-black leading-[1.05] text-white sm:text-6xl lg:text-7xl">
             Seu site precisa parecer profissional e gerar contato.
