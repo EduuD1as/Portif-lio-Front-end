@@ -15,11 +15,11 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#07110f]/82 backdrop-blur-xl">
       <nav className="section-shell flex h-18 items-center justify-between">
-        <a href="#inicio" className="flex items-center gap-3" aria-label="Eduardo Dias">
+        <a href="#inicio" className="group flex items-center gap-3" aria-label="Eduardo Dias">
           <span className="grid size-10 place-items-center rounded-md bg-lime-300 text-sm font-black text-emerald-950">
             EB
           </span>
-          <span className="text-sm font-bold uppercase tracking-[0.18em] text-white">
+          <span className="text-sm font-bold uppercase tracking-[0.18em] text-stone-300 transition group-hover:text-lime-300">
             Eduardo Dias
           </span>
         </a>
@@ -29,7 +29,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="header-link text-sm font-semibold text-stone-300 transition hover:text-white"
+              className="header-link text-sm font-semibold text-stone-300 transition hover:text-lime-300"
             >
               {link.label}
             </a>
