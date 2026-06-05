@@ -1,6 +1,6 @@
 import { Code2, GraduationCap } from 'lucide-react'
 
-const stack = ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'Node.js', 'SQL', 'APIs', 'Git/GitHub']
+const stack = ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'Node.js', 'SQL', 'APIs', 'Git/GitHub', 'Vite', 'Figma']
 
 export default function About() {
   return (
