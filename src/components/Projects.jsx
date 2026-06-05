@@ -7,15 +7,14 @@ export default function Projects() {
       <div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end">
         <div>
           <p className="text-sm font-bold uppercase tracking-[0.25em] text-emerald-300">
-            Projetos em destaque
+            Mostruário
           </p>
           <h2 className="mt-4 max-w-2xl text-3xl font-black text-white sm:text-4xl">
             Experiências digitais pensadas para segmentos reais de mercado.
           </h2>
         </div>
         <p className="max-w-md text-sm leading-7 text-zinc-400">
-          Cada card representa uma solução comercial: posicionamento profissional,
-          performance e caminhos claros para contato.
+          Cada card representa um modelo de site, com foco em um segmento de mercado, destacando o design simples e moderno.
         </p>
       </div>
 

@@ -16,7 +16,7 @@ export default function Hero() {
             Seu site precisa parecer profissional e gerar contato.
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-stone-300">
-            Eu crio sites institucionais e landing pages rápidas, responsivas e focadas
+            Crio sites institucionais e landing pages rápidas, responsivas e focadas
             em transformar visitantes em pedidos de orçamento, agendamentos e conversas no WhatsApp.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">

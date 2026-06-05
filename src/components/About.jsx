@@ -1,6 +1,4 @@
-import { Code2, GraduationCap } from 'lucide-react'
-
-const stack = ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'Node.js', 'SQL', 'APIs', 'Git/GitHub', 'Vite', 'Figma']
+import { ExternalLink, GraduationCap } from 'lucide-react'
 
 export default function About() {
   return (
@@ -9,12 +7,12 @@ export default function About() {
         <div>
           <p className="text-sm font-black uppercase tracking-[0.24em] text-emerald-800">Sobre</p>
           <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
-            Um desenvolvedor com olhar de negócio, não só de código.
+            Desenvolvedor focado em resultados.
           </h2>
           <p className="mt-6 text-lg leading-8 text-stone-700">
-            Sou Eduardo Dias, desenvolvedor Front-end. Meu foco é criar presença digital
-            para empresas locais, profissionais liberais e prestadores de serviço que
-            precisam de um site claro, rápido e confiável para receber mais contatos.
+            Sou Eduardo Dias, desenvolvedor Front-end. Crio sites para
+            empresas e profissionais que precisam de uma presença digital forte para
+            atrair mais clientes e visitas.
           </p>
         </div>
 
@@ -23,22 +21,25 @@ export default function About() {
             <GraduationCap className="text-lime-200" size={28} />
             <h3 className="mt-5 text-2xl font-black">Formação</h3>
             <p className="mt-4 leading-7 text-stone-300">
-              Técnico em Desenvolvimento de Software pelo CEDUP de Timbó e graduando em
-              Ciência da Computação pela UNISUL.
+              Técnico em Desenvolvimento de Software.
+              <br /> Graduando em Ciência da Computação.
             </p>
           </div>
           <div className="rounded-2xl border border-stone-200 bg-white p-7">
             <div className="flex items-center gap-3">
-              <Code2 className="text-emerald-800" size={26} />
-              <h3 className="text-2xl font-black">Stack principal</h3>
+              <ExternalLink className="text-emerald-800" size={26} />
+              <h3 className="text-2xl font-black">Veja meus trabalhos</h3>
             </div>
-            <div className="mt-6 flex flex-wrap gap-3">
-              {stack.map((tech) => (
-                <span key={tech} className="rounded-full bg-[#f5f1e8] px-4 py-2 text-sm font-black text-stone-700">
-                  {tech}
-                </span>
-              ))}
-            </div>
+            <p className="mt-4 leading-7 text-stone-700">
+              Confira sites e projetos que desenvolvi para diferentes clientes.
+            </p>
+            <a
+              href="#projetos"
+              className="mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-800 px-6 py-3 font-black text-white transition hover:bg-emerald-900"
+            >
+              Ver mostruário
+              <ExternalLink size={18} />
+            </a>
           </div>
         </div>
       </div>
