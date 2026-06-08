@@ -3,7 +3,6 @@ export const projects = [
     slug: 'jadlog-logistica',
     title: 'Site Institucional de Logística',
     brand: 'Jadlog',
-    sector: 'Logística & Transporte',
     description:
       'Website institucional premium para empresa de logística, com animações avançadas, mapa interativo e cases de sucesso.',
     tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'GSAP'],

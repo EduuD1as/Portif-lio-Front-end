@@ -17,9 +17,12 @@ export default function Projects() {
 
       <div className="grid gap-4 lg:grid-cols-2">
         {projects.map((project, index) => (
-          <article
+          <a
             key={project.title}
-            className="group overflow-hidden rounded-lg border border-white/10 bg-zinc-900/60 transition hover:-translate-y-1 hover:border-emerald-300/30 hover:bg-zinc-900"
+            href={project.externalUrl || `/projetos/${project.slug}`}
+            target={project.externalUrl ? '_blank' : undefined}
+            rel={project.externalUrl ? 'noopener noreferrer' : undefined}
+            className="group block overflow-hidden rounded-lg border border-white/10 bg-zinc-900/60 transition hover:-translate-y-1 hover:border-emerald-300/30 hover:bg-zinc-900"
           >
             <div className="h-32 border-b border-white/10 bg-[linear-gradient(135deg,rgba(16,185,129,0.22),rgba(79,70,229,0.2),rgba(255,255,255,0.04))] p-4">
               <div className="flex h-full flex-col justify-between">
@@ -34,7 +37,7 @@ export default function Projects() {
             </div>
             <div className="p-4">
               <p className="text-xs font-semibold text-emerald-300">{project.sector}</p>
-              <h3 className="mt-2 text-lg font-black text-white">{project.title}</h3>
+              <h3 className="text-lg font-black text-white">{project.title}</h3>
               <p className="mt-2 min-h-16 text-sm leading-6 text-zinc-300">
                 {project.description}
               </p>
@@ -49,18 +52,13 @@ export default function Projects() {
                 ))}
               </div>
               <div className="mt-4">
-                <a
-                  href={project.externalUrl || `/projetos/${project.slug}`}
-                  target={project.externalUrl ? '_blank' : undefined}
-                  rel={project.externalUrl ? 'noopener noreferrer' : undefined}
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-xs font-bold text-zinc-950 transition hover:bg-emerald-200"
-                >
+                <span className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-xs font-bold text-zinc-950 transition hover:bg-emerald-200">
                   <Eye size={14} />
                   {project.externalUrl ? 'Ver Projeto' : 'Ver Prévia'}
-                </a>
+                </span>
               </div>
             </div>
-          </article>
+          </a>
         ))}
       </div>
     </section>

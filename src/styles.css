@@ -48,3 +48,7 @@ body {
 .header-link:hover::after {
   transform: scaleX(1);
 }
+
+article {
+  cursor: pointer;
+}
