@@ -6,7 +6,6 @@ export const projects = [
     sector: 'Logística & Transporte',
     description:
       'Website institucional premium para empresa de logística, com animações avançadas, mapa interativo e cases de sucesso.',
-    tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'GSAP'],
     accent: 'red',
     audience: 'Empresas de e-commerce, varejo e indústria que necessitam de soluções logísticas nacionais.',
     headline: 'Sua logística no melhor caminho. Agilidade, tecnologia e confiança em cada entrega.',
