@@ -6,6 +6,7 @@ const links = [
   { label: 'Serviços', href: '#servicos' },
   { label: 'Processo', href: '#processo' },
   { label: 'Sobre', href: '#sobre' },
+  { label: 'Mostruário', href: '#projetos' },
   { label: 'Contato', href: '#contato' },
 ]
 
