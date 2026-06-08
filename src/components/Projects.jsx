@@ -13,9 +13,6 @@ export default function Projects() {
             Experiências digitais pensadas para segmentos reais de mercado.
           </h2>
         </div>
-        <p className="max-w-md text-sm leading-7 text-zinc-400">
-          Cada card representa um modelo de site, com foco em um segmento de mercado, destacando o design simples e moderno.
-        </p>
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
@@ -53,11 +50,13 @@ export default function Projects() {
               </div>
               <div className="mt-4">
                 <a
-                  href={`/projetos/${project.slug}`}
+                  href={project.externalUrl || `/projetos/${project.slug}`}
+                  target={project.externalUrl ? '_blank' : undefined}
+                  rel={project.externalUrl ? 'noopener noreferrer' : undefined}
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-xs font-bold text-zinc-950 transition hover:bg-emerald-200"
                 >
                   <Eye size={14} />
-                  Ver Prévia
+                  {project.externalUrl ? 'Ver Projeto' : 'Ver Prévia'}
                 </a>
               </div>
             </div>
