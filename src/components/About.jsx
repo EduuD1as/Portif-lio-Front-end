@@ -7,7 +7,7 @@ export default function About() {
         <div>
           <p className="text-sm font-black uppercase tracking-[0.24em] text-emerald-800">Sobre</p>
           <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
-            Desenvolvedor focado em resultados.
+            Conheça um pouco sobre mim!
           </h2>
           <p className="mt-6 text-lg leading-8 text-stone-700">
             Sou Eduardo Dias, desenvolvedor Front-end. Crio sites para

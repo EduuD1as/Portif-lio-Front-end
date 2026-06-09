@@ -13,7 +13,7 @@ export default function Process() {
           <div>
             <p className="text-sm font-black uppercase tracking-[0.24em] text-lime-200">Processo</p>
             <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
-              Um fluxo simples, direto e focado em resultado.
+              Fluxo simples e direto, focado em resultado.
             </h2>
           </div>
 
