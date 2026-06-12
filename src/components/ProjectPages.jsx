@@ -34,7 +34,7 @@ function JadlogPage() {
             mapa interativo e cases de sucesso de grandes marcas.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="https://transportes-express-portfolio-cwqs.vercel.app/" target="_blank" rel="noreferrer" className="rounded-lg bg-red-500 px-6 py-4 text-center text-sm font-black text-white">
+            <a href="https://transportes-express-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="rounded-lg bg-red-500 px-6 py-4 text-center text-sm font-black text-white">
               Ver projeto
             </a>
             <a href="#servicos" className="rounded-lg border border-white/15 px-6 py-4 text-center text-sm font-bold">
