@@ -14,7 +14,7 @@ export const projects = [
     metrics: ['Cobertura nacional', '+5.500 municípios', 'Rastreamento em tempo real'],
     services: ['Entregas expressas', 'Logística e-commerce', 'Transporte empresarial', 'Logística reversa'],
     cta: 'Ver projeto',
-    externalUrl: 'https://transportes-express-portfolio-cwqs.vercel.app/',
+    externalUrl: 'https://transportes-express-portfolio.vercel.app/',
   },
   {
     slug: 'advocacia-consultorio',
