@@ -1,4 +1,4 @@
-import { ArrowLeft, Check, Mail, MapPin, MessageCircle, Sparkles, Truck } from 'lucide-react'
+import { ArrowLeft, Check, Mail, MapPin, MessageCircle, Sparkles, Truck, Scale } from 'lucide-react'
 import textileHero from '../assets/textile-hero.svg'
 import beautyHero from '../assets/beauty-hero.svg'
 import realestateHero from '../assets/realestate-hero.svg'
@@ -55,6 +55,46 @@ function JadlogPage() {
             </div>
           ))}
         </div>
+      </section>
+    </main>
+  )
+}
+
+function AdvocaciaPage() {
+  return (
+    <main className="bg-slate-100 text-slate-900">
+      <section className="section-shell py-8">
+        <BackLink />
+        <div className="mt-10 overflow-hidden rounded-3xl bg-slate-950 text-white">
+          <div className="grid lg:grid-cols-[1fr_0.9fr]">
+            <div className="p-8 sm:p-12 lg:p-16">
+              <p className="text-sm font-black uppercase tracking-[0.28em] text-slate-400">
+                Dias & Associados
+              </p>
+              <h1 className="mt-6 text-5xl font-black leading-tight sm:text-6xl">
+                Excelência jurídica com compromisso e ética.
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-slate-300">
+                Site institucional sóbrio e profissional para escritório de advocacia,
+                com apresentação de áreas de atuação e formulário de contato inicial.
+              </p>
+              <a href="https://advocacia-exemplo-sooty.vercel.app/" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-slate-700 px-7 py-4 text-sm font-black text-white">
+                Ver projeto
+              </a>
+            </div>
+            <div className="flex items-center justify-center bg-slate-800 p-8">
+              <Scale className="text-slate-400" size={120} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section-shell grid gap-5 py-16 md:grid-cols-4">
+        {['Direito civil', 'Direito trabalhista', 'Direito empresarial', 'Consultoria'].map((item) => (
+          <div key={item} className="rounded-xl bg-white p-7 shadow-sm">
+            <Check className="text-slate-700" />
+            <h2 className="mt-5 text-xl font-black">{item}</h2>
+          </div>
+        ))}
       </section>
     </main>
   )
@@ -231,6 +271,7 @@ function ClinicPage() {
 
 export default function ProjectPages({ slug }) {
   if (slug === 'jadlog-logistica') return <JadlogPage />
+  if (slug === 'advocacia-consultorio') return <AdvocaciaPage />
   if (slug === 'industria-textil') return <TextilePage />
   if (slug === 'studio-estetica') return <BeautyPage />
   if (slug === 'plataforma-imobiliaria') return <RealEstatePage />
